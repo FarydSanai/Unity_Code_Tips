@@ -2,17 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class QuaternionCalculations : MonoBehaviour
+public static class QuaternionCalculations
 {
-    // Start is called before the first frame update
-    void Start()
+    public static float GetAngleAt360Format(float angle)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        return angle < 0 ? angle + 360 : angle;
     }
 }

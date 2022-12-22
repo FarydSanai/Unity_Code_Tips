@@ -2,17 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BitwiseOperations : MonoBehaviour
+public static class BitwiseOperations
 {
-    // Start is called before the first frame update
-    void Start()
+    public static bool CompareLayers(int firstLayer, int secondLayer)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        if ((firstLayer & (1 << secondLayer)) > 0)
+        {
+            return true;
+        }
+        return false;
     }
 }
