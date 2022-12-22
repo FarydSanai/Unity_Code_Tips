@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{4CE07701-134F-9DD0-F36C-F385BB4D61DF}</ProjectGuid>
+    <ProjectGuid>{B23B4304-2763-C442-BD71-FE57500E4986}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -57,6 +57,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/Scripts/Test.cs" />
+    <Compile Include="Assets/Scripts/QuaternionCalculations.cs" />
+    <Compile Include="Assets/Scripts/BitwiseOperations.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
